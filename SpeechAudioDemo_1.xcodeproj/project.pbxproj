@@ -15,6 +15,7 @@
 		B6126A531DEC6A6800EB0AAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6126A511DEC6A6800EB0AAF /* LaunchScreen.storyboard */; };
 		B6126A5E1DEC6A6800EB0AAF /* SpeechAudioDemo_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6126A5D1DEC6A6800EB0AAF /* SpeechAudioDemo_1Tests.m */; };
 		B6126A691DEC6A6800EB0AAF /* SpeechAudioDemo_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6126A681DEC6A6800EB0AAF /* SpeechAudioDemo_1UITests.m */; };
+		B6126A781DEC6E7B00EB0AAF /* textToSpeechManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6126A771DEC6E7B00EB0AAF /* textToSpeechManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B6126A641DEC6A6800EB0AAF /* SpeechAudioDemo_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechAudioDemo_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6126A681DEC6A6800EB0AAF /* SpeechAudioDemo_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeechAudioDemo_1UITests.m; sourceTree = "<group>"; };
 		B6126A6A1DEC6A6800EB0AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6126A761DEC6E7B00EB0AAF /* textToSpeechManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textToSpeechManager.h; sourceTree = "<group>"; };
+		B6126A771DEC6E7B00EB0AAF /* textToSpeechManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = textToSpeechManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B6126A471DEC6A6800EB0AAF /* AppDelegate.m */,
 				B6126A491DEC6A6800EB0AAF /* ViewController.h */,
 				B6126A4A1DEC6A6800EB0AAF /* ViewController.m */,
+				B6126A761DEC6E7B00EB0AAF /* textToSpeechManager.h */,
+				B6126A771DEC6E7B00EB0AAF /* textToSpeechManager.m */,
 				B6126A4C1DEC6A6800EB0AAF /* Main.storyboard */,
 				B6126A4F1DEC6A6800EB0AAF /* Assets.xcassets */,
 				B6126A511DEC6A6800EB0AAF /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					B6126A3F1DEC6A6800EB0AAF = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q9SZGQAPK6;
 						ProvisioningStyle = Automatic;
 					};
 					B6126A581DEC6A6800EB0AAF = {
@@ -276,6 +282,7 @@
 				B6126A4B1DEC6A6800EB0AAF /* ViewController.m in Sources */,
 				B6126A481DEC6A6800EB0AAF /* AppDelegate.m in Sources */,
 				B6126A451DEC6A6800EB0AAF /* main.m in Sources */,
+				B6126A781DEC6E7B00EB0AAF /* textToSpeechManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q9SZGQAPK6;
 				INFOPLIST_FILE = SpeechAudioDemo_1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LiYang.start.SpeechAudioDemo-1";
@@ -433,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q9SZGQAPK6;
 				INFOPLIST_FILE = SpeechAudioDemo_1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LiYang.start.SpeechAudioDemo-1";
@@ -505,6 +514,7 @@
 				B6126A6F1DEC6A6800EB0AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6126A701DEC6A6800EB0AAF /* Build configuration list for PBXNativeTarget "SpeechAudioDemo_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +523,7 @@
 				B6126A721DEC6A6800EB0AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6126A731DEC6A6800EB0AAF /* Build configuration list for PBXNativeTarget "SpeechAudioDemo_1UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +532,7 @@
 				B6126A751DEC6A6800EB0AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
