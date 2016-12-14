@@ -16,6 +16,12 @@
 		B6126A5E1DEC6A6800EB0AAF /* SpeechAudioDemo_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6126A5D1DEC6A6800EB0AAF /* SpeechAudioDemo_1Tests.m */; };
 		B6126A691DEC6A6800EB0AAF /* SpeechAudioDemo_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6126A681DEC6A6800EB0AAF /* SpeechAudioDemo_1UITests.m */; };
 		B6126A781DEC6E7B00EB0AAF /* textToSpeechManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6126A771DEC6E7B00EB0AAF /* textToSpeechManager.m */; };
+		B69003031DEDB70C007B6534 /* recoderAndPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69003021DEDB70C007B6534 /* recoderAndPlayViewController.m */; };
+		B6A839AE1DEF06DA00CF6894 /* guitar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A839AD1DEF06DA00CF6894 /* guitar@2x.png */; };
+		B6A839B01DEF06E600CF6894 /* bass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A839AF1DEF06E600CF6894 /* bass@2x.png */; };
+		B6A839B21DEF06EF00CF6894 /* drum@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A839B11DEF06EF00CF6894 /* drum@2x.png */; };
+		B6A839B51DEF142F00CF6894 /* OLPlayBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A839B41DEF142F00CF6894 /* OLPlayBtn.m */; };
+		B6B1E8781E001CEF00F3F67E /* UIColor+THAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B1E8771E001CEF00F3F67E /* UIColor+THAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,15 @@
 		B6126A6A1DEC6A6800EB0AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6126A761DEC6E7B00EB0AAF /* textToSpeechManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textToSpeechManager.h; sourceTree = "<group>"; };
 		B6126A771DEC6E7B00EB0AAF /* textToSpeechManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = textToSpeechManager.m; sourceTree = "<group>"; };
+		B69003011DEDB70C007B6534 /* recoderAndPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recoderAndPlayViewController.h; sourceTree = "<group>"; };
+		B69003021DEDB70C007B6534 /* recoderAndPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recoderAndPlayViewController.m; sourceTree = "<group>"; };
+		B6A839AD1DEF06DA00CF6894 /* guitar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guitar@2x.png"; sourceTree = "<group>"; };
+		B6A839AF1DEF06E600CF6894 /* bass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bass@2x.png"; sourceTree = "<group>"; };
+		B6A839B11DEF06EF00CF6894 /* drum@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drum@2x.png"; sourceTree = "<group>"; };
+		B6A839B31DEF142F00CF6894 /* OLPlayBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLPlayBtn.h; sourceTree = "<group>"; };
+		B6A839B41DEF142F00CF6894 /* OLPlayBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLPlayBtn.m; sourceTree = "<group>"; };
+		B6B1E8761E001CEF00F3F67E /* UIColor+THAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+THAdditions.h"; sourceTree = "<group>"; };
+		B6B1E8771E001CEF00F3F67E /* UIColor+THAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+THAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +120,18 @@
 			isa = PBXGroup;
 			children = (
 				B6126A461DEC6A6800EB0AAF /* AppDelegate.h */,
+				B6A839AD1DEF06DA00CF6894 /* guitar@2x.png */,
+				B6A839AF1DEF06E600CF6894 /* bass@2x.png */,
+				B6A839B11DEF06EF00CF6894 /* drum@2x.png */,
 				B6126A471DEC6A6800EB0AAF /* AppDelegate.m */,
 				B6126A491DEC6A6800EB0AAF /* ViewController.h */,
 				B6126A4A1DEC6A6800EB0AAF /* ViewController.m */,
+				B69003011DEDB70C007B6534 /* recoderAndPlayViewController.h */,
+				B69003021DEDB70C007B6534 /* recoderAndPlayViewController.m */,
+				B6A839B31DEF142F00CF6894 /* OLPlayBtn.h */,
+				B6A839B41DEF142F00CF6894 /* OLPlayBtn.m */,
+				B6B1E8761E001CEF00F3F67E /* UIColor+THAdditions.h */,
+				B6B1E8771E001CEF00F3F67E /* UIColor+THAdditions.m */,
 				B6126A761DEC6E7B00EB0AAF /* textToSpeechManager.h */,
 				B6126A771DEC6E7B00EB0AAF /* textToSpeechManager.m */,
 				B6126A4C1DEC6A6800EB0AAF /* Main.storyboard */,
@@ -254,6 +278,9 @@
 			files = (
 				B6126A531DEC6A6800EB0AAF /* LaunchScreen.storyboard in Resources */,
 				B6126A501DEC6A6800EB0AAF /* Assets.xcassets in Resources */,
+				B6A839AE1DEF06DA00CF6894 /* guitar@2x.png in Resources */,
+				B6A839B01DEF06E600CF6894 /* bass@2x.png in Resources */,
+				B6A839B21DEF06EF00CF6894 /* drum@2x.png in Resources */,
 				B6126A4E1DEC6A6800EB0AAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +307,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6126A4B1DEC6A6800EB0AAF /* ViewController.m in Sources */,
+				B6A839B51DEF142F00CF6894 /* OLPlayBtn.m in Sources */,
+				B6B1E8781E001CEF00F3F67E /* UIColor+THAdditions.m in Sources */,
+				B69003031DEDB70C007B6534 /* recoderAndPlayViewController.m in Sources */,
 				B6126A481DEC6A6800EB0AAF /* AppDelegate.m in Sources */,
 				B6126A451DEC6A6800EB0AAF /* main.m in Sources */,
 				B6126A781DEC6E7B00EB0AAF /* textToSpeechManager.m in Sources */,
